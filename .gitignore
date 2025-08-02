@@ -47,6 +47,7 @@ next-env.d.ts
 # Firebase
 .firebase/
 firebase-debug.log
+firebase-debug.*.log
 
 # AI/Genkit
 .genkit/
@@ -92,3 +93,11 @@ jspm_packages/
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+# Project specific
+.modified
+*.bak
+*.tmp
+
+# Backup files
+*~
